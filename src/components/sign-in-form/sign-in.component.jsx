@@ -16,10 +16,8 @@ import TextInput from "../form/text-input/text-input.component";
 import PasswordInput from "../form/psw-input/psw-input.component";
 import CheckboxInput from "../form/check-box/check-box.component";
 import SubmitButton from "../form/button/button.component";
-import { useNavigate } from "react-router-dom";
 
 const SignIn = () => {
-  //   const navigate = useNavigate();
   const [serverError, setServerError] = useState("");
   const [networkError, setNetworkError] = useState("");
   const [isLoading, setIsLoading] = useState(false);
